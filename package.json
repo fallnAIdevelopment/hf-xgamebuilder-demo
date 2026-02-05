@@ -1,0 +1,22 @@
+{
+  "name": "hf-xgamebuilder-demo",
+  "version": "1.0.0",
+  "description": "Fantasy RPG wit multiple levels, NPCs, boss battles.",
+  "main": "src/game.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:web": "vite build --mode web",
+    "build:mobile": "vite build --mode mobile",
+    "build:desktop": "vite build --mode desktop",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.160.0",
+    "cannon-es": "^0.20.0",
+    "howler": "^2.2.3"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
